@@ -28,7 +28,8 @@ config 顯示有四個路徑可以做設定，以下作法都是在 user 個人�
 `jupyter notebook --generate-config`
 
 產生後, 會出現在 ``~/.jupyter`
-ipython 內產生密碼, 複製產生出的密碼
+
+結著進入 ipython 環境內產生密碼, 複製產生出的密碼
 ```
 In [1]: from notebook.auth import passwd
 In [2]: passwd()
