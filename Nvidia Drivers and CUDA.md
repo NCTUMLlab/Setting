@@ -20,6 +20,7 @@ CUDA 3.0: 195.36.15
 軟體目錄下新增 ppa 地址，然後更新資料庫資訊
 
 `sudo add-apt-repository ppa:graphics-drivers/ppa`
+
 `sudo apt-get update`
 
 可以由此 [Proprietary GPU Drivers](https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa) 查看目前資料庫的版本
@@ -45,10 +46,6 @@ sudo apt-get install nvidia-375 nvidia-settings
 ### 下載 CUDA8.0 安裝檔：
 [Nvidia CUDA](https://developer.nvidia.com/cuda-downloads) 選擇 `CUDA8.0.runfile (local)`
 
-或著直接透過指令下載
-```
-wget http://developer.download.nvidia.com/compute/cuda/8.0/secure/prod/local_installers/cuda_8.0.44_linux.run?autho=1481188616_450da098546d6824ff9324db51816878&file=cuda_8.0.44_linux.run
-```
 
 ## Install CUDA8.0
 
