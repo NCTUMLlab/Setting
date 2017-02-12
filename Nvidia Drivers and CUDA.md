@@ -19,9 +19,10 @@ CUDA 3.0: 195.36.15
 ```
 軟體目錄下新增 ppa 地址，然後更新資料庫資訊
 
-`sudo add-apt-repository ppa:graphics-drivers/ppa`
-
-`sudo apt-get update`
+```
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt-get update
+```
 
 可以由此 [Proprietary GPU Drivers](https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa) 查看目前資料庫的版本
 
