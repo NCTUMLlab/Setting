@@ -159,7 +159,7 @@ Result = PASS
 cuDNN 是為了 Deep Neural Network 設計的 GPU 加速函式庫
 首先先到 [cuDNN Offical](https://developer.nvidia.com/cudnn) 依照 CUDA 版本下載， 順便下載 Sample Code 做為測試，這邊使用 cuDNN 5.1
 
-解壓縮檔案 :`tar xvzf cudnn-8.0-linux-x64-v5.1-ga.tgz`
+解壓縮檔案 :`tar xvzf cudnn-8.0-linux-x64-v5.1.solitairetheme8`
 
 會產生出一個 CUDA 的資料夾, 進入資料夾後
 ```
