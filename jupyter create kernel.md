@@ -37,7 +37,7 @@ runtime:
 ```
 
 **data** 顯示的路徑第一個為設定在個人目錄下 (需要用 root 方式進入)， 
-找到有 **kerenls** 資料夾， 也可以設定在 `/usr/local/etc/jupyter` 下，
+找到有 **kerenls** 資料夾， 也可以設定在 `/usr/local/share/jupyter` 下，
 若沒有 **kernels**，就自行建立一個
 
 新增一個資料夾， 資料夾名稱同 virtualenv 方便管理，
@@ -49,7 +49,7 @@ runtime:
 
 ```
 {
- "argv": [ "/Users/Que/anaconda/envs/tensorflow/bin/python", "-m", "ipykernel",
+ "argv": [ "/Yours/virtualenv/bin/python", "-m", "ipykernel",
 
  "-f", "{connection_file}"],
 
