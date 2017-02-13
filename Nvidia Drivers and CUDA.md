@@ -296,7 +296,6 @@ lrwxrwxrwx  1 root root    8  6月 30 13:51 cuda -> cuda-7.5/
 
 ```
 # Put symlinks in /usr/local/cuda
-sudo mkdir /usr/local/cuda
 cd /usr/local/cuda
 sudo ln -s  /usr/lib/x86_64-linux-gnu/ lib64
 sudo ln -s  /usr/include/ include
