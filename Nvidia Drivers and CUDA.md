@@ -263,15 +263,6 @@ Test passed!
 
 `git clone https://github.com/NVIDIA/cnmem.git cnmem`
 
-**Build CNMeM without the unit tests**
-```
-cd cnmem
-mkdir build
-cd build
-cmake ..
-make
-```
-
 **Build CNMeM with the unit tests**
 ```
 cd cnmem
@@ -285,11 +276,12 @@ make
 上述設定 `CUDA_HOME` 路徑是 `/usr/local/cuda`
 其實 `/usr/local/cuda` 其實就是安裝路徑的 `/usr/local/cuda-7.5` 同步連結
 在 `/usr/local/` 下查看詳細資訊, 會看到
+
 ```
 lrwxrwxrwx  1 root root    8  6月 30 13:51 cuda -> cuda-7.5/
 ```
 
-加入 ld.so.conf 目的為:將動態函式庫載入快取記憶體
+加入 `ld.so.conf` 目的為將動態函式庫載入快取記憶體
 可以使用 `sudo ldconfig -p ` 查看有戴入的動態函示庫清單
 
 
