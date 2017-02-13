@@ -19,15 +19,17 @@ runtime:
     /run/user/1000/jupyter
 ```
 
-config 顯示有四個路徑可以做設定，以下作法都是在 user 個人下做設定，
+config 顯示有四個路徑可以做設定，以下作法都是在個人目錄下做設定，
 
-可以另外將以下產生的設定擺置其他地方 (ex: `/usr/local/share/jupyter`)
+可以另外將以下產生的設定擺置其他地方 (ex: `/usr/local/etc/jupyter`)
 
-產生 jupyter https 設定檔，個人目錄下會出現 `.jupyter` 資料夾
 
 `jupyter notebook --generate-config`
 
+產生 jupyter https 設定檔，個人目錄下會出現 `.jupyter` 資料夾
+
 接著進入 ipython 環境內產生密碼, 複製產生出的密碼
+
 ```
 In [1]: from notebook.auth import passwd
 In [2]: passwd()
@@ -35,6 +37,7 @@ Enter password:
 Verify password:
 Out[2]: 'sha1:67c9....'
 ```
+
 產生 `.pem`  和 hash `.key` 的文件
 ```
 openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mykey.key -out mycert.pem
