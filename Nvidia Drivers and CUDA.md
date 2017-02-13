@@ -75,11 +75,12 @@ export PATH
 ```
 設定完後，記得 ` source ~/.bashrc`
 可以透過 `nvcc --version` 查看 cuda 是否安裝成功
+
 ```
 nvcc: NVIDIA (R) Cuda compiler driver
-Copyright (c) 2005-2015 NVIDIA Corporation
-Built on Tue_Aug_11_14:27:32_CDT_2015
-Cuda compilation tools, release 7.5, V7.5.17
+Copyright (c) 2005-2016 NVIDIA Corporation
+Built on Sun_Sep__4_22:14:01_CDT_2016
+Cuda compilation tools, release 8.0, V8.0.44
 ```
 ##Install CUDA Samples
 安裝 CUDA Samples 目的主要是驗證 CUDA 安裝是否成功
