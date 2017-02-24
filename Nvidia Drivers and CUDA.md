@@ -60,8 +60,8 @@ sudo apt-get install nvidia-375 nvidia-settings
 
 若已經安裝 Driver，可以略過安裝 Driver 這一步驟
 
-步驟中有選擇安裝 CUDA Sample，可以選擇忽略，在 `/usr/local/cuda` 內也會有
-##設定PATH  
+步驟中有選擇安裝 CUDA Sample，可以選擇安裝在哪, 或在網路上另外抓
+##設定PATH  
 
 將以下加入 `~/.bashrc` ：
 (Global setting, 設定在 `/etc/profile` 下)
@@ -82,7 +82,7 @@ Copyright (c) 2005-2016 NVIDIA Corporation
 Built on Sun_Sep__4_22:14:01_CDT_2016
 Cuda compilation tools, release 8.0, V8.0.44
 ```
-##Install CUDA Samples
+##CUDA Samples
 安裝 CUDA Samples 目的主要是驗證 CUDA 安裝是否成功
 如果編譯 CUDA Samples 沒有 Errors (Warning 忽略), 就表示沒問題
 
