@@ -13,9 +13,10 @@ pip 是一套Python套件管理程式
 
 主要有兩種方法，比較推薦使用第一種方式安裝
 1. ubuntu apt-get 方式
-`sudo apt-get install python3-pip	 #Python 3.x`
-`sudo apt-get install python-pip 	 #Python 2.x`
-
+```
+sudo apt-get install python3-pip	 #Python 3.x
+sudo apt-get install python-pip 	 #Python 2.x
+```
 2. 下載 [get-pip.py](https://bootstrap.pypa.io/get-pip.py)，自行用 python 編譯，會一起安裝pip跟pip3
 `sudo python get-pip.py`
 
