@@ -63,10 +63,7 @@ runtime:
 
 * `displayname` 為 jupyter 內顯示 kernel 名稱
 
-### 快速方法
-
-**不推薦**
-
+### 快速方法 (**不推薦**)
 一樣先進入 virtualenv
 
 `source activate myenv`
