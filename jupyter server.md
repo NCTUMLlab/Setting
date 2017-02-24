@@ -43,7 +43,8 @@ Out[2]: 'sha1:67c9....'
 openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mykey.key -out mycert.pem
 ```
 產生出來會有`mykey.key`跟`mycert.pem` 這兩個檔案在目錄下
-最後設定 jupyter notebook config 位於：`~/.jupyter/jupyter_notebook_config.py`
+
+設定 jupyter notebook config 位於：`~/.jupyter/jupyter_notebook_config.py`，將下面東西貼入設定檔內
 ```
 # Set options for certfile, ip, password, and toggle off browser auto-opening
 c.NotebookApp.certfile = '/absolute/path/to/your/certificate/mycert.pem'
