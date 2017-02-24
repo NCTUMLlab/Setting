@@ -189,8 +189,7 @@ sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
 
 `tar xvzf cudnn-sample-v5.solitairetheme8`
 
-切換到解壓縮後的目錄
-
+切換到解壓縮後的目錄，拿 mnistCUDNN 做測試
 ```
 make 
 ./mnistCUDNN
