@@ -37,7 +37,7 @@ runtime:
 ```
 
 **data** 顯示的路徑第一個為設定在個人目錄下 (需要用 root 方式進入)， 
-找到有 **kerenls** 資料夾， 也可以設定在 `/usr/local/share/jupyter` 下，
+找到有 **kerenls** 資料夾， 多人共用一個設定檔，可以設定在 `/usr/local/share/jupyter` 下，
 若沒有 **kernels**，就自行建立一個
 
 新增一個資料夾， 資料夾名稱同 virtualenv 方便管理，
@@ -53,7 +53,7 @@ runtime:
 
  "-f", "{connection_file}"],
 
- "display_name": "tensorflow",
+ "display_name": "display_name_in_jupyter",
 
  "language": "python"
 }
@@ -64,6 +64,8 @@ runtime:
 * `displayname` 為 jupyter 內顯示 kernel 名稱
 
 ### 快速方法
+
+**不推薦**
 
 一樣先進入 virtualenv
 
