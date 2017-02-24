@@ -24,7 +24,7 @@ sudo apt-get install python-pip 	 #Python 2.x
 
 安裝numpy/scipy/theano 之前必須先安裝以下套件
 
-`sudo apt-get install build-essential python-dev python-setuptools libboost-python-dev libboost-thread-dev -y`
+`sudo apt-get install build-essential libboost-python-dev libboost-thread-dev `
 
 `sudo apt-get install libboost-all-dev # Boost C++ Libraries`
 
