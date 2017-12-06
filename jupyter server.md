@@ -1,4 +1,4 @@
-##iPython notbook server
+## iPython notbook server
 先查詢 jupyter 設定檔的位置
 
 `jupyter --path`
