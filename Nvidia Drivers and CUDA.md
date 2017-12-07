@@ -165,6 +165,7 @@ cuDNN 是為了 Deep Neural Network 設計的 GPU 加速函式庫
 ```
 sudo cp -P include/cudnn.h /usr/local/cuda/include
 sudo cp -P lib64/libcudnn* /usr/local/cuda/lib64
+sudo chmod a+r /usr/local/cuda/lib64/cudnn.h
 sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
 ```
 
