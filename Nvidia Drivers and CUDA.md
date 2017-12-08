@@ -307,7 +307,7 @@ sudo ln -s  /usr/lib/x86_64-linux-gnu/ lib64
 sudo ln -s  /usr/include/ include
 
 # Install cuDnn
-#http://askubuntu.com/questions/767269/how-can-i-install-cudnn-on-ubuntu-16-04
+# http://askubuntu.com/questions/767269/how-can-i-install-cudnn-on-ubuntu-16-04
 # Download cudann as detailed above and extract
 cd ~/Downloads/cuda
 sudo cp include/cudnn.h /usr/include
