@@ -1,4 +1,4 @@
-#Install Nvidia driver on Ubuntu 16.04
+# Install Nvidia driver on Ubuntu 16.04
 安裝 nvidia driver 必須注意 cuda 支援版本, 至少 **higher/newer**
 
 **直接裝 CUDA 話，也會包含 Driver 一起安裝, 可直接略過此步驟，但版本未必是最新**
@@ -82,7 +82,7 @@ Copyright (c) 2005-2016 NVIDIA Corporation
 Built on Sun_Sep__4_22:14:01_CDT_2016
 Cuda compilation tools, release 8.0, V8.0.44
 ```
-##CUDA Samples
+## CUDA Samples
 安裝 CUDA Samples 目的主要是驗證 CUDA 安裝是否成功
 如果編譯 CUDA Samples 沒有 Errors (Warning 忽略), 就表示沒問題
 
@@ -159,17 +159,17 @@ Result = PASS
 cuDNN 是為了 Deep Neural Network 設計的 GPU 加速函式庫
 首先先到 [cuDNN Offical](https://developer.nvidia.com/cudnn) 依照 CUDA 版本下載， 順便下載 Sample Code 做為測試，這邊使用 cuDNN 5.1
 
-解壓縮檔案 :`tar xvzf cudnn-8.0-linux-x64-v5.1.solitairetheme8`
+解壓縮檔案 :`tar xvzf cudnn-8.0-linux-x64-v6.0.tgz `
 
 會產生出一個 CUDA 的資料夾, 進入資料夾後
 ```
-sudo cp -P include/cudnn.h /usr/local/cuda/include
-sudo cp -P lib64/libcudnn* /usr/local/cuda/lib64
-sudo chmod a+r /usr/local/cuda/lib64/cudnn.h
+sudo cp include/cudnn.h /usr/local/cuda/include
+sudo cp lib64/libcudnn* /usr/local/cuda/lib64
+sudo chmod a+r /usr/local/cuda/include/cudnn.h
 sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
 ```
 
-###確認複製
+### 確認複製
 
 `cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2`
 
